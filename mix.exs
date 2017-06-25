@@ -23,7 +23,7 @@ defmodule Algolia.Mixfile do
   end
 
   defp deps do
-    [{:hackney, "~> 1.6.5"},
+    [{:hackney, "~> 1.6.5 or ~> 1.8"},
      {:poison, "~> 1.5 or ~> 2.0"},
 
      # Docs
